@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 15px;
+}
+body{
+    background-color:rgb(199, 181, 183);
+}
+.photo{
+    padding: 50px 800px;
+    margin-top: -600px;
+}
+h1,.style{
+    font-style: italic;
+}
+h4{
+    font-style: oblique;
+}
+.contain {
+    /* width: 500px; */
+    /* height: 400px; */
+    text-align: center;
+    color: black;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    background-color: rgb(163, 90, 172);
+    color: black;
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1);
+  }
+  .title {
+    font-size: 60px;
+  }
+  button:hover {
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  a{
+    text-decoration: none;
+  }
